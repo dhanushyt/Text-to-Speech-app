@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* import background image from BGjar */
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask6503%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient6504%26quot%3b)'%3e%3c/rect%3e%3cg transform='translate(0%2c 0)' stroke-linecap='round' stroke='url(%26quot%3b%23SvgjsLinearGradient6505%26quot%3b)'%3e%3cpath d='M260 150.49 L260 330.49' stroke-width='15'%3e%3c/path%3e%3cpath d='M260 352.99 L260 409.51' stroke-width='15'%3e%3c/path%3e%3cpath d='M280 211.11 L280 271.11' stroke-width='15'%3e%3c/path%3e%3cpath d='M280 293.61 L280 348.89' stroke-width='15'%3e%3c/path%3e%3cpath d='M300 267.34 L300 292.66' stroke-width='15'%3e%3c/path%3e%3cpath d='M320 162.12 L320 397.88' stroke-width='15'%3e%3c/path%3e%3cpath d='M340 260.95 L340 299.05' stroke-width='15'%3e%3c/path%3e%3cpath d='M360 214.16 L360 259.15999999999997' stroke-width='15'%3e%3c/path%3e%3cpath d='M360 281.65999999999997 L360 296.65999999999997' stroke-width='15'%3e%3c/path%3e%3cpath d='M360 319.15999999999997 L360 345.85' stroke-width='15'%3e%3c/path%3e%3cpath d='M380 222.56 L380 267.56' stroke-width='15'%3e%3c/path%3e%3cpath d='M380 290.06 L380 337.44' stroke-width='15'%3e%3c/path%3e%3cpath d='M400 267.31 L400 292.69' stroke-width='15'%3e%3c/path%3e%3cpath d='M420 183.03 L420 228.03' stroke-width='15'%3e%3c/path%3e%3cpath d='M420 250.53 L420 310.53' stroke-width='15'%3e%3c/path%3e%3cpath d='M420 333.03 L420 376.97' stroke-width='15'%3e%3c/path%3e%3cpath d='M440 161.56 L440 191.56' stroke-width='15'%3e%3c/path%3e%3cpath d='M440 214.06 L440 398.44' stroke-width='15'%3e%3c/path%3e%3cpath d='M460 111.81 L460 156.81' stroke-width='15'%3e%3c/path%3e%3cpath d='M460 179.31 L460 209.31' stroke-width='15'%3e%3c/path%3e%3cpath d='M460 231.81 L460 448.19' stroke-width='15'%3e%3c/path%3e%3cpath d='M480 221.67 L480 251.67' stroke-width='15'%3e%3c/path%3e%3cpath d='M480 274.16999999999996 L480 338.33' stroke-width='15'%3e%3c/path%3e%3cpath d='M500 110.4 L500 200.4' stroke-width='15'%3e%3c/path%3e%3cpath d='M500 222.9 L500 282.9' stroke-width='15'%3e%3c/path%3e%3cpath d='M500 305.4 L500 449.6' stroke-width='15'%3e%3c/path%3e%3cpath d='M520 197.69 L520 362.31' stroke-width='15'%3e%3c/path%3e%3cpath d='M540 267.31 L540 292.69' stroke-width='15'%3e%3c/path%3e%3cpath d='M560 205 L560 250' stroke-width='15'%3e%3c/path%3e%3cpath d='M560 272.5 L560 302.5' stroke-width='15'%3e%3c/path%3e%3cpath d='M560 325 L560 355' stroke-width='15'%3e%3c/path%3e%3cpath d='M580 231.37 L580 246.37' stroke-width='15'%3e%3c/path%3e%3cpath d='M580 268.87 L580 283.87' stroke-width='15'%3e%3c/path%3e%3cpath d='M580 306.37 L580 328.63' stroke-width='15'%3e%3c/path%3e%3cpath d='M600 257.43 L600 302.57' stroke-width='15'%3e%3c/path%3e%3cpath d='M620 168 L620 213' stroke-width='15'%3e%3c/path%3e%3cpath d='M620 235.5 L620 280.5' stroke-width='15'%3e%3c/path%3e%3cpath d='M620 303 L620 392' stroke-width='15'%3e%3c/path%3e%3cpath d='M640 252.8 L640 307.2' stroke-width='15'%3e%3c/path%3e%3cpath d='M660 167.84 L660 242.84' stroke-width='15'%3e%3c/path%3e%3cpath d='M660 265.34000000000003 L660 392.16' stroke-width='15'%3e%3c/path%3e%3cpath d='M680 114.31 L680 294.31' stroke-width='15'%3e%3c/path%3e%3cpath d='M680 316.81 L680 445.69' stroke-width='15'%3e%3c/path%3e%3cpath d='M700 237.4 L700 322.61' stroke-width='15'%3e%3c/path%3e%3cpath d='M720 175.23 L720 220.23' stroke-width='15'%3e%3c/path%3e%3cpath d='M720 242.73 L720 317.73' stroke-width='15'%3e%3c/path%3e%3cpath d='M720 340.23 L720 384.77' stroke-width='15'%3e%3c/path%3e%3cpath d='M740 262.31 L740 297.69' stroke-width='15'%3e%3c/path%3e%3cpath d='M760 206.63 L760 353.37' stroke-width='15'%3e%3c/path%3e%3cpath d='M780 258.25 L780 301.75' stroke-width='15'%3e%3c/path%3e%3cpath d='M800 230.18 L800 245.18' stroke-width='15'%3e%3c/path%3e%3cpath d='M800 267.68 L800 282.68' stroke-width='15'%3e%3c/path%3e%3cpath d='M800 305.18 L800 329.82' stroke-width='15'%3e%3c/path%3e%3cpath d='M820 160.47 L820 265.47' stroke-width='15'%3e%3c/path%3e%3cpath d='M820 287.97 L820 302.97' stroke-width='15'%3e%3c/path%3e%3cpath d='M820 325.47 L820 399.52' stroke-width='15'%3e%3c/path%3e%3cpath d='M840 263.4 L840 296.6' stroke-width='15'%3e%3c/path%3e%3cpath d='M860 145.21 L860 220.21' stroke-width='15'%3e%3c/path%3e%3cpath d='M860 242.71 L860 332.71000000000004' stroke-width='15'%3e%3c/path%3e%3cpath d='M860 355.21000000000004 L860 414.79' stroke-width='15'%3e%3c/path%3e%3cpath d='M880 242.45 L880 317.55' stroke-width='15'%3e%3c/path%3e%3cpath d='M900 185.67 L900 230.67' stroke-width='15'%3e%3c/path%3e%3cpath d='M900 253.17 L900 374.33' stroke-width='15'%3e%3c/path%3e%3cpath d='M920 158.54 L920 293.53999999999996' stroke-width='15'%3e%3c/path%3e%3cpath d='M920 316.03999999999996 L920 346.03999999999996' stroke-width='15'%3e%3c/path%3e%3cpath d='M920 368.53999999999996 L920 401.46' stroke-width='15'%3e%3c/path%3e%3cpath d='M940 263.13 L940 296.88' stroke-width='15'%3e%3c/path%3e%3cpath d='M960 115.53 L960 175.53' stroke-width='15'%3e%3c/path%3e%3cpath d='M960 198.03 L960 213.03' stroke-width='15'%3e%3c/path%3e%3cpath d='M960 235.53 L960 444.48' stroke-width='15'%3e%3c/path%3e%3cpath d='M980 141.65 L980 186.65' stroke-width='15'%3e%3c/path%3e%3cpath d='M980 209.15 L980 418.35' stroke-width='15'%3e%3c/path%3e%3cpath d='M1000 201.24 L1000 358.76' stroke-width='15'%3e%3c/path%3e%3cpath d='M1020 157.37 L1020 307.37' stroke-width='15'%3e%3c/path%3e%3cpath d='M1020 329.87 L1020 344.87' stroke-width='15'%3e%3c/path%3e%3cpath d='M1020 367.37 L1020 402.63' stroke-width='15'%3e%3c/path%3e%3cpath d='M1040 256.19 L1040 303.81' stroke-width='15'%3e%3c/path%3e%3cpath d='M1060 193.94 L1060 366.06' stroke-width='15'%3e%3c/path%3e%3cpath d='M1080 220.97 L1080 235.97' stroke-width='15'%3e%3c/path%3e%3cpath d='M1080 258.47 L1080 288.47' stroke-width='15'%3e%3c/path%3e%3cpath d='M1080 310.97 L1080 339.03' stroke-width='15'%3e%3c/path%3e%3cpath d='M1100 153.34 L1100 303.34000000000003' stroke-width='15'%3e%3c/path%3e%3cpath d='M1100 325.84000000000003 L1100 406.65' stroke-width='15'%3e%3c/path%3e%3cpath d='M1120 245.59 L1120 260.59000000000003' stroke-width='15'%3e%3c/path%3e%3cpath d='M1120 283.09000000000003 L1120 314.4' stroke-width='15'%3e%3c/path%3e%3cpath d='M1140 259.35 L1140 300.65' stroke-width='15'%3e%3c/path%3e%3cpath d='M1160 229.7 L1160 244.7' stroke-width='15'%3e%3c/path%3e%3cpath d='M1160 267.2 L1160 282.2' stroke-width='15'%3e%3c/path%3e%3cpath d='M1160 304.7 L1160 330.3' stroke-width='15'%3e%3c/path%3e%3cpath d='M1180 176.28 L1180 266.28' stroke-width='15'%3e%3c/path%3e%3cpath d='M1180 288.78 L1180 383.72' stroke-width='15'%3e%3c/path%3e%3c/g%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask6503'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='50%25' x2='100%25' y2='50%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient6504'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(255%2c 0%2c 166%2c 1)' offset='1'%3e%3c/stop%3e%3cstop stop-color='rgba(255%2c 182%2c 0%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='1195.2' y1='280' x2='244.8' y2='280' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient6505'%3e%3cstop stop-color='%233a7cc3' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(3%2c 247%2c 255%2c 1)' offset='0.77'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+}
+
+.container h1 {
+  font-size: 80px;
+  margin: 0;
+  color: rgba(231, 43, 212, 0.856);
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  font-family: sans-serif;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+}
+
+.container textarea {
+  margin: 30px 0;
+  width: 400px;
+  height: 200px;
+  box-shadow: 12px 12px 15px rgba(0, 0, 0, 0.2);
+  font-size: 18px;
+  padding: 5px;
+  border: none;
+  outline: none;
+}
+
+.container button {
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: white;
+  box-shadow: 12px 12px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  cursor: pointer;
+}
